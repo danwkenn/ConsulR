@@ -4,8 +4,13 @@
 \alias{format_line}
 \title{Format line with space margins.}
 \usage{
-format_line(x, linewidth = 80, right_margin = 5, left_margin = 1,
-  type = c("basic", "roxygen2"))
+format_line(
+  x,
+  linewidth = 80,
+  right_margin = 5,
+  left_margin = 1,
+  type = c("basic", "roxygen2")
+)
 }
 \arguments{
 \item{x}{String.}

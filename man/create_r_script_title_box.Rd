@@ -4,11 +4,22 @@
 \alias{create_r_script_title_box}
 \title{Create an R script file with preamble in either the basic or roxygen2 format.}
 \usage{
-create_r_script_title_box(title, author, email,
-  date_created = Sys.Date(), date_last_modified = Sys.Date(),
-  description, params = NULL, output = NULL, license = "MIT",
-  linewidth = 80, right_margin = 4, left_margin = 1,
-  type = c("basic", "roxygen2"), write_to_file = NULL)
+create_r_script_title_box(
+  title,
+  author,
+  email,
+  date_created = Sys.Date(),
+  date_last_modified = Sys.Date(),
+  description,
+  params = NULL,
+  output = NULL,
+  license = "MIT",
+  linewidth = 80,
+  right_margin = 4,
+  left_margin = 1,
+  type = c("basic", "roxygen2"),
+  write_to_file = NULL
+)
 }
 \arguments{
 \item{title}{Character string with title of script.}
@@ -54,7 +65,7 @@ create_r_script_title_box(
   author = "D. W. Kennedy",
   email = "not.my.email@gmail.com",
   license = "",
-  description = "\\nThe following code:\\n - solves existential dread,\\n - the problem of evil\\n - the need for accountants.",
+  description = "\nThe following code:\n - solves existential dread,\n - the problem of evil\n - the need for accountants.",
   type = "basic",
   params = c("blah a parameter which is not important.", "verbose Should progress messages be shown?")
 )

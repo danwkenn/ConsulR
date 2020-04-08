@@ -14,4 +14,4 @@ Imports:
    knitr
 Authors@R: person("Daniel", "Kennedy", email = "dan.w.kennedy@outlook.com",role = c("aut", "cre"))
 VignetteBuilder: knitr
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.0
