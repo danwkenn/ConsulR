@@ -20,14 +20,19 @@
 #' @return If file runs cleanly, then output is \code{TRUE}.
 #' @export
 #' @examples
+#' description <- "\nThe following code:
+#'  - solves existential dread,
+#'  - the problem of evil
+#'  - the need for accountants."
 #' create_r_script_title_box(
 #'   title = "A script about nothing",
 #'   author = "D. W. Kennedy",
 #'   email = "not.my.email@gmail.com",
 #'   license = "",
-#'   description = "\nThe following code:\n - solves existential dread,\n - the problem of evil\n - the need for accountants.",
+#'   description = description,
 #'   type = "basic",
-#'   params = c("blah a parameter which is not important.", "verbose Should progress messages be shown?")
+#'   params = c("blah a parameter which is not important.",
+#'    "verbose Should progress messages be shown?")
 #' )
 
 create_r_script_title_box <- function(

@@ -28,7 +28,7 @@ uncomment_marked_lines <- function(
   # uncomment lines and remove tag:
   lines[uncomment_lines] <- stringr::str_match(
     string = lines[uncomment_lines],
-    pattern = paste0("^#(.*?)",uncomment_pattern))[,2]
+    pattern = paste0("^#\\s{0,1}(.*?)\\s*",uncomment_pattern))[,2]
 
   # Paste lines back together:
   lines <- paste0(lines,collapse = "\n")

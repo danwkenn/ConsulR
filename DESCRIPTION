@@ -6,7 +6,7 @@ Author: Who wrote it
 Maintainer: Daniel W. Kennedy <dan.w.kennedy@outlook.com>
 Description: Managing code for a number of clients can be difficult, as every client has their own style and needs. Therefore, while it should be encouraged that code be written according to established styles, and using technologies like packages, RProject files and markdowns, the client should be respected in their decisions without patrony or forcing them to change their coding behaviour unwillingly.
     This package is a work-in-progress for creating a consistent, reliable product with flexibility to allow for multiple styles, but where reasonable incorporating regularity.
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:
@@ -14,4 +14,4 @@ Imports:
    knitr
 Authors@R: person("Daniel", "Kennedy", email = "dan.w.kennedy@outlook.com",role = c("aut", "cre"))
 VignetteBuilder: knitr
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1
